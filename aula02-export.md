@@ -105,13 +105,13 @@ Agora vamos estruturar nosso projeto:
 
 `mkdir src`
 
-`"" > src/index.html`
+`echo "" > src/index.html`
 
-`"" > src/index.tsx`
+`echo "" > src/index.tsx`
 
-`"" > src/App.tsx`
+`echo "" > src/App.tsx`
 
-`"" > src/tsconfig.json`
+`echo "" > src/tsconfig.json`
 
 No arquivo index.html, dentro do `<body>` teremos o seguinte código:
 
@@ -162,7 +162,7 @@ No arquivo package.json gerado adicione os seguintes trechos de código:
 "source": "src/index.html"
 ```
 
-estado
+e
 
 ```JSON
 "scripts": {
